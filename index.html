@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- JavaScript -->
+  <script src="/js/app.js"></script>
+  <!-- Icono de la pagina -->
+  <link rel="shortcut icon" href="../img/hacker_anonymous_icon_154428.ico">
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="lienaheader">
+    <div>
+      <img src="./img/hacker.png" alt="" height="60px" width="60px">
+    </div>
+    <div>
+      <h1>INNOVATER CODE</h1>
+    </div>
+    <div>
+      <!-- Boton para iniciar sesion -->
+      <a href="./pages/login.html">Loging</a>
+      <!-- Boton para registrarse -->
+      <a href="./pages/regist.html">Registrarse</a>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="encabezado">
+    <h3>¿Necesita ayuda con sus Sitios o apps?</h3>
+    <h3>¿Tiene miedo de hackers?</h3>
+  </div>
+  <div class="container">
+    <div class="text">
+      <h2>Today</h2>
+      <p>¡Protege tu mundo digital con nuestra
+        pagina de ciberseguridad!En un mundo cada
+        vez mas conectado, mantener tus datos seguros
+        es escencial. En nuestra plataforma,
+        te ofrecemos las herramientas y conocimientos
+        necesarios para proteger tu informacion
+        personal y profesional contra amenazas cibernéticas.
+      </p>
+    </div>
+    <div class="image">
+      <img src="./img/hacker.png" alt="Imagen de ejemplo">
+    </div>
+  </div>
+
+  <br>
+  <div class="footer">
+    <p>Derechos reservados &copy InnovaterCode</p>
+    <p>Dudas y Contactos en:</p>
+    <div class="contenedor2">
+      <img src="./img/facebook.png" alt="facebook" height="30px" width="30px">
+      <img src="./img/instagram.png" alt="intagram" height="30px" width="30px">
+      <img src="./img/whatssapp.png" alt="whatssapp" height="30px" width="30px">
+    </div>
+  </div>
+
+  <!-- <script src="./sw.js"></script> -->
+  <!-- <script src="./js/mensajes.js"></script>
+  <script>
+    if('serviceWorker' in navigator){
+      console.log("Si conecta el service Worker");
+
+      window.addEventListener('load', function(){
+        navigator.serviceWorker.register('sw_offlinepage.js')
+        navigator.serviceWorker.register('sw_offlinesite.js')
+        navigator.serviceWorker.register('sw_cachesite.js')
+        .then(function(registration){
+          console.log('Service worker registrado');
+          console.log('Scope: ' + registration.scope);
+        }, function(error){
+          console.log('No jala el SW bro :,v');
+          console.log(error);
+        });
+      });
+    }
+  </script> -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('sw.js?'+Math.random()+'')
+      });
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+{
+    "name": "Ciber Seguridad Innovater Code",
+    "short_name": "InnovaterCode",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "description": "¿Problemas con hackers u situaciones parecidas? Regístrate y confía en nosotros",
+    "lang": "es",
+    "orientation": "portrait", 
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/img/hackericon1.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/hackericon2.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots":[
+        {
+            "src": "/img/hacker.png",
+            "sizes": "606x560",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Descarga la App en compu"
+        },
+        {
+            "src": "/img/hacker.png",
+            "sizes": "606x560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Descarga la App en Mobil"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+}
+
+.lienaheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #243b55;
+}
+
+.lienaheader img {
+  margin-right: 10px;
+}
+
+.lienaheader h1 {
+  margin: 0;
+  color: white;
+}
+
+.lienaheader a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.lienaheader a:hover {
+  background-color: white;
+  color: #243b55;
+}
+
+
+.encabezado{
+    color:#243b55;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    /* background-color:aqua; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text, .image {
+    flex: 1;
+    padding: 20px;
+    color: aliceblue;
+    position: relative;  
+    /* text-align: right; */
+  }
+
+  .text{
+    text-align: right;
+  }
+    
+  .image img{
+    width: 170px;
+    height: 200px;
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+
+  .registro{
+    text-align: center;
+    color: blue;
+  }
+  
+  .registro .forms{
+    display: inline-block;
+  }
+
+  .registro .btn{
+    border-radius: 5%;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: blue;
+  }
+  
+  .registro .btn:hover{
+    background-color: #e0e0e0;
+  }
+
+.footer{
+  background-color: #243b55;
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer p{
+  /* margin-top: 12%; */
+  text-align: center;
+  color: aliceblue;
+}
+
+.contenedor2{
+  text-align: center;
+}
+
+.contenedor2 img{
+  margin-left: 20px;
+}
